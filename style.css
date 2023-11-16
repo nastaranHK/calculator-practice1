@@ -1,0 +1,51 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+
+.maindiv{
+  width: 250px;
+  margin: auto;
+
+}
+
+.inputsection , .resultsection{
+   border: 1px solid rgb(151, 7, 151);
+   border-radius: 20px;
+
+}
+.inputsection{
+
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.resultsection{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+.inputfield{
+height: 40px;
+width: 120px;
+font-size: x-large;
+}
+
+.btn {
+   background-color: rgb(151, 7, 151) ;
+   color: azure;
+   border: none;
+   width: 40px;
+   height: 40px;
+   margin-top: 6px;
+}
+
+
